@@ -94,7 +94,7 @@ module.exports = {
 }
 ```
 
-Similar to Jest [globalSetup](https://jestjs.io/docs/next/configuration#globalsetup-string) configuration can except the export of an async function:
+Similar to Jest [globalSetup](https://jestjs.io/docs/next/configuration#globalsetup-string), configuration can accept the export of an async function:
 
 ```js
 module.exports = async () => {
